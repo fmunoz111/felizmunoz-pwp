@@ -1,5 +1,13 @@
 .nav {
 	color: white;
-	background-color:black;
+	background-color:white;
+}
+
+section {
+	background-image: url("balloon.jpg");
+}
+
+.nav-text {
+	color: #777;
 }
 
