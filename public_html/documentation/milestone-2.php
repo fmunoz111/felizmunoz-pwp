@@ -28,12 +28,12 @@
 		</div>
 		<div>
 			<h3>Desktop Wireframe</h3>
-			<img src="website-wireframe.png" alt="website wireframe" width="546" height="572">
+			<img src="../website-wireframe.png" alt="website wireframe" width="546" height="572">
 		</div>
 		<div>
 			<h3>Mobile Wireframe</h3>
-			<img src="mobile-wireframe1.png" alt="mobile wireframe" width="290" height="548">
-			<img src="mobile-wirefram2.png" alt="mobile wireframe" width="290" height="547">
+			<img src="../mobile-wireframe1.png" alt="mobile wireframe" width="290" height="548">
+			<img src="../mobile-wirefram2.png" alt="mobile wireframe" width="290" height="547">
 		</div>
 	</body>
 
