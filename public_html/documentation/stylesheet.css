@@ -1,10 +1,7 @@
-.nav {
-	color: white;
-	background:url("mountains.JPG");
-}
-
-.nav-text {
-	color: #777;
+.nav
+.nav.nav-nav li {
+	color: black;
+	background-image: url("mountains.JPG");
 }
 
 .jumbotron {
