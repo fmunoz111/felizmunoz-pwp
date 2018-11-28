@@ -1,11 +1,51 @@
-.nav
-.nav.nav-nav li {
+/*
+ Glooobbaaaalllllll
+ */
+
+a {
 	color: black;
+}
+
+a:hover {
+	color: #b38fa8;
+}
+
+
+#header {
+	color: black;
+}
+
+.parallax_section {
+	height: 500px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	position:relative;
+}
+
+.parallax_image_first{
 	background-image: url("mountains.JPG");
+	width: 100vw;
+	background-size: cover;
 }
 
 .jumbotron {
-	background: url("mountains.JPG") no-repeat top center fixed;
+	background: transparent;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.parallax-window {
+	min-height: 400px;
+	background: transparent;
+}
+
+.parallax_image_second {
+	background-image: url("pink.jpg");
+	width: 100vw;
 	background-size: cover;
 }
 
