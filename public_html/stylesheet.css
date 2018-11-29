@@ -49,6 +49,14 @@ a:hover {
 	background-size: cover;
 }
 
+a:link {
+	color: #b38fa8;
+	background-color: white;
+	border: white;
+}
+
+
+
 
 
 

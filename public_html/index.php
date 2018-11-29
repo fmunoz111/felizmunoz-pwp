@@ -12,22 +12,34 @@
 		<link rel="stylesheet" href="stylesheet.css">
 
 		<title>Feliz Munoz PWP</title>
-		<script src='https://www.google.com/recaptcha/api.js'></script>
-		<!-- add jquery-validate-->
+
+
+
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+		<!-- jQuery Form, Validate, Additional Methods, -->
+		<!-- jQuery Form, Validate, Additional Methods, -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js" integrity="sha256-2Pjr1OlpZMY6qesJM68t2v39t+lMLvxwpa8QlRjJroA=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js" integrity="sha256-F6h55Qw6sweK+t7SiOJX+2bpSAa3b/fnlrVCJvmEj1A=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js" integrity="sha256-0Yg/eibVdKyxkuVo1Qwh0DspoUCHvSbm/oOoYVz32BQ=" crossorigin="anonymous"></script>
+
+
 		<script src="js/jquery-validate.js"></script>
+
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 	</head>
 	<body>
 
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
-		<!-- add missing Jquery files -->
-		<script src='https://www.google.com/recaptcha/api.js'></script>
-		<!-- add jquery-validate-->
-		<script src="js/jquery-validate.js"></script>
 
 <header>
 	<nav class="nav-custom">
@@ -78,9 +90,7 @@
 						<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 							<div class="carousel-inner">
 								<div class="carousel-item active">
-									<p>
-										This is testimonial 1
-									</p>
+									<p>Feliz is a wonderful coworker! Throughout the CNM Deep Dive Bootcamp, she was willing to help me understand complex topics and was always available to answer any questions that arose for me. She is a strong leader and has a solid work ethic that I aspire to embody her dedication to her craft.</p>
 								</div>
 								<div class="carousel-item">
 									<p>
@@ -113,7 +123,7 @@
 				<p class="text-center">Throughout the course of the bootcamp we had two major projects to work on.   One project is the web page you are looking at now and this project was all about front end.  I came into this bootcamp with extremely little background in anything computer related; I have come a long way!  I used HTML5, CSS, Bootstrap, and Javascript for this project.</p>
 				<hr class="my-4">
 				<p class="text-center">The second project that we had going on during the bootcamp was our capstone project that we worked on in teams.  My group and I created Family Connect.  Family Connect is a platform for families and large groups to communicate on.  What sets our site aside from others alike is a potluck and task component.  Family Connect allows families to plan potlucks, bar b que's, parties, get togethers and more.  Once an event is created, there is an automatic sign up sheet along with the event that makes it easy for everyone to sign up for what they will bring without all the hassle of going back and forth with everyone on what to bring.  The task component allows for families to assign tasks for one another with due dates.  We used MySQL, OOP, PHP, Bootstrap, CSS, SCSS, HTML5.  My group and I submitted our web app to the UNM/CNM App Competition and are hoping to come out with the W.  Click the link to check it out!</p>
-				<a class="btn btn-primary btn-lg" href="#" role="button">Family Connect</a>
+					<a class="btn btn-primary btn-lg" href="#" role="button" target="_blank">Family Connect</a>
 			</div>
 		</div>
 	</div>
@@ -122,10 +132,12 @@
 <br>
 <br>
 
+<hr>
+
 <section id="contact">
-	<form id="Feliz's-form" action="mail-config.php" method="post">
+	<form id="contact-me" action="php/mailer.php" method="post">
 		<div class="form-group">
-			<h3>Send me a message and let's bring your dreams to life!</h3>
+			<h4 class="text-center">Send me a message and let's bring your dreams to life!</h4>
 			<label for="contactName">Name <span class="text-danger">*</span></label>
 			<div class="input-group">
 				<div class="input-group-prepend">
@@ -146,16 +158,6 @@
 			</div>
 		</div>
 		<div class="form-group">
-			<label for="contactSubject">Subject</label>
-			<div class="input-group">
-				<div class="input-group-prepend">
-					<span class="input-group-text"></span>
-					<i class="fa fa-pencil" aria-hidden="true"></i>
-				</div>
-				<input type="text" class="form-control" id="contactSubject" name="contactSubject" placeholder="Subject">
-			</div>
-		</div>
-		<div class="form-group">
 			<label for="contactMessage">Message <span class="text-danger">*</span></label>
 			<div class="input-group">
 				<div class="input-group-prepend">
@@ -173,13 +175,18 @@
 		<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
 	</form>
 
-	<!--empty area for form error/success output-->
+	<div id="output-area"></div>
+
+	<!--empty area for form error/success output
 	<div class="row">
 		<div class="col-xs-12">
 			<div id="output-area"></div>
 		</div>
 	</div>
+	-->
 </section>
+
+<hr>
 
 <section id="footer">
 	<footer class="container-fluid">

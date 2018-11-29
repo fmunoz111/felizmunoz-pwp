@@ -2,7 +2,7 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="7c79c4d5-96e9-4ab7-a9de-075855629a06" name="felizmunoz-pwp" url="http://bootcamp-coders.cnm.edu/~fmunoz11/felizmunoz-pwp/">
+      <webServer id="ee44b6e7-4271-437d-9f89-f1ccb5fb1311" name="felizmunoz-pwp" url="http://bootcamp-coders.cnm.edu/~fmunoz11/felizmunoz-pwp">
         <fileTransfer host="bootcamp-coders.cnm.edu" port="22" rootFolder="/home/fmunoz11/public_html/felizmunoz-pwp" accessType="SFTP" authAgent="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />

@@ -9,7 +9,7 @@
  **/
 ini_set('display_errors', 1);
 // require all composer dependencies
-require_once(dirname(__DIR__, 1) . "/vendor/autoload.php");
+require_once(dirname(__DIR__, 2) . "/vendor/autoload.php");
 // require mail-config.php
 require_once("mail-config.php");
 // verify user's reCAPTCHA input
@@ -25,10 +25,9 @@ try {
 	 * This assumes jQuery (NOT Angular!) will be AJAX submitting the form,
 	 * so we're using the $_POST superglobal.
 	 **/
-	$name = filter_input(INPUT_POST, "name", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
-	$email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL);
-	$subject = filter_input(INPUT_POST, "subject", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
-	$message = filter_input(INPUT_POST, "message", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+	$name = filter_input(INPUT_POST, "contactName", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+	$email = filter_input(INPUT_POST, "contactEmail", FILTER_SANITIZE_EMAIL);
+	$message = filter_input(INPUT_POST, "contactMessage", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 	// create Swift message
 	$swiftMessage = new Swift_Message();
 	/**
@@ -42,8 +41,6 @@ try {
 	 **/
 	$recipients = $MAIL_RECIPIENTS;
 	$swiftMessage->setTo($recipients);
-	// attach the subject line to the message
-	$swiftMessage->setSubject($subject);
 	/**
 	 * Attach the actual message to the message.
 	 *

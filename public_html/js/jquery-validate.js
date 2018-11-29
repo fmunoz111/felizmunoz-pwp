@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$("form").validate({
+	$("#contact-me").validate({
 		// setup handling of form errors
 		debug: true,
 		errorClass: "alert alert-danger",
@@ -39,22 +39,23 @@ $(document).ready(function(){
 		},
 
 		submitHandler: function(form) {
-			$($form).ajaxSubmit({
+			$("#contact-me").ajaxSubmit({
 				type: "POST",
-				url: $("#my-contact-form").attr("action"),
+				url: $("#contact-me").attr("action"),
 
 				succes: function(ajaxOutput) {
-					$("#output-area").css("display", "clear");
+					$("#output-area").css("display", "");
 
 					// write the server's reply to the output area
 					$("#output-area").html(ajaxOutput);
 
 					// reset the form if it was successful
 					if($(".alert-success").length >= 1) {
-						$("#my-contact-form")[0].reset();
+						$("#contact-me")[0].reset();
 					}
 				}
 			})
 		}
 
-}
+});
+});
