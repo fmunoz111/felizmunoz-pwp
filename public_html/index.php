@@ -94,12 +94,17 @@
 								</div>
 								<div class="carousel-item">
 									<p>
-										This is testimonial 2
+										Feliz Munoz is a joy to work with and an awesome software developer. Not only does she have a very good instinct for code, but she will also work longer, harder and smarter than most to figure out the right answer. Her strong critical thinking skills shine through in how she solves technical problems, and she has excellent communication skills to boot. She would be a great addition to any team.
 									</p>
 								</div>
 								<div class="carousel-item">
 									<p>
-										this is testimonial 3
+										Working with Feliz was nothing short of a great time. With her attention to detail and hard work, projects became easier to manage as she was able to do her part while helping others. She has the skills and the mindset to set her far from the rest and achieve anything she sets her mind to!
+									</p>
+								</div>
+								<div class="carousel-item">
+									<p>
+										Feliz is a very dedicated worker. Reliable and flexible.  She is very honest and will always share her opinion in a healthy, constructive way. She is very strong and has great leadership abilities. Feliz will do great in any position she holds, I highly reccomend her.
 									</p>
 								</div>
 							</div>
@@ -123,10 +128,11 @@
 				<p class="text-center">Throughout the course of the bootcamp we had two major projects to work on.   One project is the web page you are looking at now and this project was all about front end.  I came into this bootcamp with extremely little background in anything computer related; I have come a long way!  I used HTML5, CSS, Bootstrap, and Javascript for this project.</p>
 				<hr class="my-4">
 				<p class="text-center">The second project that we had going on during the bootcamp was our capstone project that we worked on in teams.  My group and I created Family Connect.  Family Connect is a platform for families and large groups to communicate on.  What sets our site aside from others alike is a potluck and task component.  Family Connect allows families to plan potlucks, bar b que's, parties, get togethers and more.  Once an event is created, there is an automatic sign up sheet along with the event that makes it easy for everyone to sign up for what they will bring without all the hassle of going back and forth with everyone on what to bring.  The task component allows for families to assign tasks for one another with due dates.  We used MySQL, OOP, PHP, Bootstrap, CSS, SCSS, HTML5.  My group and I submitted our web app to the UNM/CNM App Competition and are hoping to come out with the W.  Click the link to check it out!</p>
-					<a class="btn btn-primary btn-lg" href="#" role="button" target="_blank">Family Connect</a>
+				<div class="text-center">
+					<a class="btn btn-primary btn-lg"  href="#" role="button" target="_blank">Family Connect</a>
+				</div>
 			</div>
 		</div>
-	</div>
 </section>
 
 <br>

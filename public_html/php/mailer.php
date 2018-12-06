@@ -21,7 +21,7 @@ try {
 		throw(new Exception("reCAPTCHA error!"));
 	}
 	/**
-	 * Sanitize the inputs from the form: name, email, subject, and message.
+	 * Sanitize the inputs from the form: name, email and message.
 	 * This assumes jQuery (NOT Angular!) will be AJAX submitting the form,
 	 * so we're using the $_POST superglobal.
 	 **/

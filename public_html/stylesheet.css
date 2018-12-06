@@ -10,9 +10,11 @@ a:hover {
 	color: #b38fa8;
 }
 
-
 #header {
 	color: black;
+	margin-right:20px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
 }
 
 .parallax_section {
@@ -27,6 +29,7 @@ a:hover {
 .parallax_image_first{
 	background-image: url("mountains.JPG");
 	width: 100vw;
+	height: 600px;
 	background-size: cover;
 }
 
@@ -47,12 +50,54 @@ a:hover {
 	background-image: url("pink.jpg");
 	width: 100vw;
 	background-size: cover;
+	height: 300px
+}
+
+p {
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
+.parallax_image_second {
+	height: 300px;
+}
+
+.carousel-control-prev {
+	width: 20px;;
+	height: 80px;
+}
+
+.carousel-control-next {
+	width: 20px;
+	height: 80px;
 }
 
 a:link {
 	color: #b38fa8;
-	background-color: white;
+	background: white;
 	border: white;
+	list-style: none;
+}
+
+.form-group {
+	margin-right: 30px;
+	margin-left: 20px;
+}
+
+.g-recaptcha {
+	margin-left: 20px;
+}
+
+.btn-success {
+	margin-left: 20px;
+}
+
+.btn-warning {
+	margin-left: 20px;
+}
+
+footer {
+	background-color: #b38fa8;
 }
 
 

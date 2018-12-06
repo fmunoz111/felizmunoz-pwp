@@ -38,12 +38,13 @@ $(document).ready(function(){
 			}
 		},
 
+		// AJAX submit the form data to back end if rules pass
 		submitHandler: function(form) {
 			$("#contact-me").ajaxSubmit({
 				type: "POST",
 				url: $("#contact-me").attr("action"),
 
-				succes: function(ajaxOutput) {
+				success: function(ajaxOutput) {
 					$("#output-area").css("display", "");
 
 					// write the server's reply to the output area
