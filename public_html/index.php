@@ -72,7 +72,7 @@
 				<div class="about" id="about">
 					<div class="container-fluid text-center">
 						<h2 class="about me">About</h2>
-						<p>Hello!  I am Feliz Munoz and I am a native New Mexican full stack web developer.  I have recently completed the Full Stack Web Development Bootcamp through CNM Ingenuity.  I have experince with html, css, javascript, mySQL, php, bootstrap, and node.js. I have a background in working for non-profits, event organization, teaching, and working in teams.  I am a driven individual and I adapt to any environment I am in.  I focus on goals, I enjoy routine, and I always like to have something going on in my life.  I enjoy helping others achieve their goals.</p>
+						<p>Hello!  I am Feliz Munoz and I am a native New Mexican full stack web developer.  I have recently completed the Full Stack Web Development Bootcamp through CNM Ingenuity.  I have experince with HTML5, CSS, Bootstrap, MySQL, PHP, and Angular. I have a background in working for non-profits, event organization, teaching, and working in teams.  I am a driven individual and I adapt to any environment I am in.  I am goal oriented, I enjoy routine, I have strong communication skills and always strive for more out of life.</p>
 
 						<br>
 
