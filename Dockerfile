@@ -26,7 +26,7 @@ COPY . var/www/html/
 
 CMD /usr/sbin/apache2ctl -D FOREGROUND
 
-WORKDIR /var/www/html
+WORKDIR /var/www/html/public_html
 
 RUN rm /var/www/html/index.html
 
